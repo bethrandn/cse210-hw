@@ -1,0 +1,22 @@
+﻿A version control system (VCS) is a tool that helps developers track changes made to code and maintain a history of the code written on GitHub. It allows developers to see what changes were made and why they were made through commit messages. It also helps teams view contributions made by other members when working collaboratively.
+
+A VCS supports basic review by answering important questions such as:
+• Which changes were made?
+• Who made the changes?
+• When were the changes made?
+• Why were the changes needed?
+
+Example of how version control works, using VSCode.
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello World! This is the Sandbox Project.");
+    }
+}
+
+We can either use the terminal box to commit changes or we use the source control button to do that.  Assuming the above code is changed from "Hello World! This is the Sandbox Project." to "Hello World! This is Bethrand."
+The developer will need to commit this new change to GitHub, with a mesage indicating the change made, this allows others to see what change was made, and why it's made, also it allows other team members to review, edit, or add to the code as needed.
